@@ -1,0 +1,25 @@
+.field{
+    width: 450px;
+    height: 35px;
+    margin: 1px;
+}
+.completed{
+    font-size: larger;
+    display: flex;
+    justify-content: flex-start;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 5px 5px;
+}
+.saveChanges{
+    display: flex;
+    justify-content: flex-end;
+}
+.errorMessage{
+    padding: 5px;
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
